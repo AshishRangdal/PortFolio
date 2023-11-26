@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button'
 import Particle from '../Particle'
 import Resumecontent from './ResumeContent'
 
-import pdf from '../../Assets/AshishResume2023.docx'
+import pdf from '../../Assets/AshishResume.pdf'
 import {AiOutlineDownload} from 'react-icons/ai'
 
 function Resume() {
@@ -22,7 +22,7 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
-              title="Frontend developer [Apprite Tech]"
+              title="Frontend developer [Appristine Technology]"
               date="May 2023 - present"
               content={[
                 'Learned and experiment with React.js, Rest API, Postman, ThunderClient, Firebase, Multi-Lingual, Chat support.',
@@ -46,6 +46,14 @@ function Resume() {
               content={[
                 `CGPA: 9.10/10 `,
                 'I was complete my post grad degree fron PAH Solapur University',
+              ]}
+            />
+             <Resumecontent
+              title="BSC [ECS]"
+              date="2018 - 2021"
+              content={[
+                `CGPA: 9.14/10 `,
+                'I was complete my under grad degree fron Dayanand College solapur',
               ]}
             />
 
