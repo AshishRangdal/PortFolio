@@ -45,7 +45,7 @@ function Resume() {
               date="2021 - 2023"
               content={[
                 `CGPA: 9.10/10 `,
-                'I was complete my post grad degree fron PAH Solapur University',
+                'Successfully debugged my way through a postgraduate degree from PAH Solapur University, achieving a 9.10 CGPA, proving that even with complex algorithms, I can always find the right solution.',
               ]}
             />
              <Resumecontent
@@ -53,7 +53,7 @@ function Resume() {
               date="2018 - 2021"
               content={[
                 `CGPA: 9.14/10 `,
-                'I was complete my under grad degree fron Dayanand College solapur',
+                'Successfully compiled my undergraduate studies at Dayanand College, achieving a 9.14 CGPA, proving that I can handle even the most complex data structures',
               ]}
             />
 
