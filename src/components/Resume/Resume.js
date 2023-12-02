@@ -1,18 +1,18 @@
-import React from 'react'
-import {Container, Row, Col} from 'react-bootstrap'
-import Button from 'react-bootstrap/Button'
-import Particle from '../Particle'
-import Resumecontent from './ResumeContent'
+import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
+import Button from "react-bootstrap/Button";
+import Particle from "../Particle";
+import Resumecontent from "./ResumeContent";
 
-import pdf from '../../Assets/AshishResume.pdf'
-import {AiOutlineDownload} from 'react-icons/ai'
+import pdf from "../../Assets/AshishResume.pdf";
+import { AiOutlineDownload } from "react-icons/ai";
 
 function Resume() {
   return (
     <Container fluid className="resume-section">
       <Particle />
       <Container>
-        <Row style={{justifyContent: 'center', position: 'relative'}}>
+        <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -25,8 +25,8 @@ function Resume() {
               title="Frontend developer [Appristine Technology]"
               date="May 2023 - present"
               content={[
-                'Learned and experiment with React.js, Rest API, Postman, ThunderClient, Firebase, Multi-Lingual, Chat support.',
-                'Build fully responsive and dynamic web apps',
+                "Learned and experiment with React.js, Rest API, Postman, ThunderClient, Firebase, Multi-Lingual, Chat support.",
+                "Build fully responsive and dynamic web apps",
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
@@ -34,7 +34,7 @@ function Resume() {
               title="Head Dexter Innofest Codemaster"
               date="Sep 2022 - March 2023"
               content={[
-                'The role of a Head of Coding Contest is crucial in managing and overseeing coding competitions, hackathons, or programming challenges. This role involves a combination of organizational, technical, and leadership responsibilities.',
+                "The role of a Head of Coding Contest is crucial in managing and overseeing coding competitions, hackathons, or programming challenges. This role involves a combination of organizational, technical, and leadership responsibilities.",
               ]}
             />
           </Col>
@@ -45,15 +45,15 @@ function Resume() {
               date="2021 - 2023"
               content={[
                 `CGPA: 9.10/10 `,
-                'Successfully debugged my way through a postgraduate degree from PAH Solapur University, achieving a 9.10 CGPA, proving that even with complex algorithms, I can always find the right solution.',
+                "Successfully debugged my way through a postgraduate degree from PAH Solapur University, achieving a 9.10 CGPA, proving that even with complex algorithms, I can always find the right solution.",
               ]}
             />
-             <Resumecontent
+            <Resumecontent
               title="BSC [ECS]"
               date="2018 - 2021"
               content={[
                 `CGPA: 9.14/10 `,
-                'Successfully compiled my undergraduate studies at Dayanand College, achieving a 9.14 CGPA, proving that I can handle even the most complex data structures',
+                "Successfully compiled my undergraduate studies at Dayanand College, achieving a 9.14 CGPA, proving that I can handle even the most complex data structures",
               ]}
             />
 
@@ -67,7 +67,7 @@ function Resume() {
             />
           </Col>
         </Row>
-        <Row style={{justifyContent: 'center', position: 'relative'}}>
+        <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button variant="primary" href={pdf} target="_blank">
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -75,7 +75,7 @@ function Resume() {
         </Row>
       </Container>
     </Container>
-  )
+  );
 }
 
-export default Resume
+export default Resume;
